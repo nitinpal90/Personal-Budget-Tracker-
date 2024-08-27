@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Budget Tracker</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Personal Budget Tracker</h1>
+
+        <div class="forms-container">
+            <div class="form-container">
+                <h2>Add Income</h2>
+                <form id="income-form">
+                    <input type="text" id="income-source" placeholder="Source" required>
+                    <input type="number" id="income-amount" placeholder="Amount" required>
+                    <input type="date" id="income-date" required>
+                    <select id="income-currency" required>
+                        <option value="USD" selected>USD - US Dollar</option>
+                        <option value="EUR">EUR - Euro</option>
+                        <option value="GBP">GBP - British Pound</option>
+                        <option value="INR">INR - Indian Rupee</option>
+                        <option value="JPY">JPY - Japanese Yen</option>
+                    </select>
+                    <button type="submit">Add Income</button>
+                </form>
+            </div>
+
+            <div class="form-container">
+                <h2>Add Expense</h2>
+                <form id="expense-form">
+                    <input type="text" id="expense-category" placeholder="Category" required>
+                    <input type="number" id="expense-amount" placeholder="Amount" required>
+                    <input type="date" id="expense-date" required>
+                    <select id="expense-currency" required>
+                        <option value="USD" selected>USD - US Dollar</option>
+                        <option value="EUR">EUR - Euro</option>
+                        <option value="GBP">GBP - British Pound</option>
+                        <option value="INR">INR - Indian Rupee</option>
+                        <option value="JPY">JPY - Japanese Yen</option>
+                    </select>
+                    <button type="submit">Add Expense</button>
+                </form>
+            </div>
+        </div>
+
+        <div class="summary-container">
+            <h2>Budget Summary</h2>
+            <div class="summary-box">
+                <div class="summary-item">
+                    <p>Total Income</p>
+                    <h3 id="total-income">USD $0</h3>
+                </div>
+                <div class="summary-item">
+                    <p>Total Expenses</p>
+                    <h3 id="total-expenses">USD $0</h3>
+                </div>
+                <div class="summary-item">
+                    <p>Balance</p>
+                    <h3 id="balance">USD $0</h3>
+                </div>
+                <div class="insights-box">
+                    <h3>Personalized Insights</h3>
+                    <p id="insights">Track your spending and income to get insights.</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="actions-container">
+            <button id="export-btn">Export Data</button>
+            <input type="file" id="import-file" accept=".json" />
+            <button id="import-btn">Import Data</button>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
