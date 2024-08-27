@@ -1,6 +1,6 @@
 # Personal Budget Tracker with Blockchain Integration
 Introduction
-Welcome to the Personal Budget Tracker repository! This project is developed by Innova8ors, consisting of Nitin Pal, Akash Kumar, Nitin Pant and Nakul Kumar. Our goal is to create an innovative tool that simplifies personal finance management and ensures data security through blockchain technology.
+Welcome to the Personal Budget Tracker repository! This project is developed by Innova8ors, consisting of Nitin Pal, Akash, Nitin Pant and Nakul Kumar. Our goal is to create an innovative tool that simplifies personal finance management and ensures data security through blockchain technology.
 
 Project Overview
 Problem Statement
